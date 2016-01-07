@@ -2,6 +2,6 @@
 
 A Google Chrome extension used to help users plan their schedule.
 
-Contributors:
+Contributors:\n
 chris-zhu (Christopher Zhu)
 kevinwang97 (Kevin Wang)
