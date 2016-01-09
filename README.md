@@ -1,5 +1,5 @@
-# Time-Management-Extension
-A Google Chrome extension used to help users plan their schedule.
+# RemindMe
+A Google Chrome extension used to help users keep track of upcoming events.
 
 Contributors:
 
