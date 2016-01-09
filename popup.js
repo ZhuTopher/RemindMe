@@ -1,5 +1,3 @@
-var click = function() {
-	windows.open("https://www.google.com/")
-}
-
-document.getElementById("Hello").onclick = click;
+document.getElementById("Hello").onclick = function() {
+	chrome.extension.sendMessage({greeting: "openTab"}, function (response) {});
+};

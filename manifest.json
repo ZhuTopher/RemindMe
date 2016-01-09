@@ -9,12 +9,18 @@
 		"default_popup": "popup.html"
 	},
 	
+	"permissions": [
+		"tabs"
+	],
+	
 	"background": {
 		"scripts": ["background.js"]
 	},
 	
-	"permissions": [
-		"activeTab",
-		"tabs"
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["myScript.js"]
+		}
 	]
 }
