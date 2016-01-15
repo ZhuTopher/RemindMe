@@ -1,0 +1,48 @@
+/* removing default text formatting */
+
+*{ margin: 0px; padding: 0px;}
+
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #0099FF;
+}
+
+.container{
+	border: 2px solid orange;
+	
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#header{
+	height: 100px;
+	width: 100%;
+	min-width: 500px;
+	background-image: url(resources/images/header-bg.png);
+}
+
+#logoArea img{
+	float: left;
+	margin: 8px;
+	border: 2px solid #101010 ;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#logoText{
+	float: left;
+	margin: 40px 5px 0px 5px;
+	line-height: 60px;
+	color: #F8F8F8;
+	font-size: 55px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#nav{
+	list-style: none;
+}
+
+#nav li > a{
+	border: 2px solid orange;
+}
