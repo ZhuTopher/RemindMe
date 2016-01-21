@@ -1,6 +1,6 @@
 # (WIP) RemindMe
 A Google Chrome extension used to help users keep track of upcoming events.
-![Extension Icon](Extension_ex.png)
+![Extension Icon](Extension_Ex.png)
 
 
 ## Contributors:
