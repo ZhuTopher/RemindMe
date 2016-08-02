@@ -1,4 +1,4 @@
-# (WIP) RemindMe
+# (HOLD, to be integrated with 'Pester Me') RemindMe
 ![Extension Icon](Extension_Ex.png)
 
 A Google Chrome extension used to help users keep track of upcoming events.
